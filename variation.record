@@ -1,0 +1,178 @@
+Script started on Mon 29 Sep 2014 09:23:47 PM EDT
+vjananth@mothra:~/fall2014/CSI500/Labs/Lab03> git log -pcommit -m "Did the first make and answered Q2"[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K./do-variation.sh
+echo xxxx
+xxxx
+time ./raceDriver- 1
+sharedInt=20000000 ideal=20000000 diff=0 reldiff=0.000000e+00
+
+real	0m0.061s
+user	0m0.058s
+sys	0m0.003s
+echo xxxx
+xxxx
+time ./raceDriver- 1
+sharedInt=20000000 ideal=20000000 diff=0 reldiff=0.000000e+00
+
+real	0m0.062s
+user	0m0.060s
+sys	0m0.001s
+echo xxxx
+xxxx
+time ./raceDriver- 1
+sharedInt=20000000 ideal=20000000 diff=0 reldiff=0.000000e+00
+
+real	0m0.061s
+user	0m0.060s
+sys	0m0.001s
+echo xxxx
+xxxx
+time ./raceDriver- 2
+sharedInt=23809065 ideal=40000000 diff=-16190935 reldiff=-4.047734e-01
+
+real	0m0.348s
+user	0m0.687s
+sys	0m0.002s
+echo xxxx
+xxxx
+time ./raceDriver- 2 
+sharedInt=24420619 ideal=40000000 diff=-15579381 reldiff=-3.894845e-01
+
+real	0m0.347s
+user	0m0.686s
+sys	0m0.001s
+echo xxxx
+xxxx
+time ./raceDriver- 2 
+sharedInt=24558690 ideal=40000000 diff=-15441310 reldiff=-3.860327e-01
+
+real	0m0.345s
+user	0m0.678s
+sys	0m0.002s
+echo xxxx
+xxxx
+time ./raceDriver- 10
+sharedInt=44990155 ideal=200000000 diff=-155009845 reldiff=-7.750492e-01
+
+real	0m1.976s
+user	0m7.440s
+sys	0m0.002s
+echo xxxx
+xxxx
+time ./raceDriver- 10
+sharedInt=35288259 ideal=200000000 diff=-164711741 reldiff=-8.235587e-01
+
+real	0m2.034s
+user	0m7.924s
+sys	0m0.000s
+echo xxxx
+xxxx
+time ./raceDriver- 10
+sharedInt=42905402 ideal=200000000 diff=-157094598 reldiff=-7.854730e-01
+
+real	0m1.983s
+user	0m7.463s
+sys	0m0.003s
+echo xxxx
+xxxx
+cat /proc/cpuinfo 
+processor	: 0
+vendor_id	: AuthenticAMD
+cpu family	: 15
+model		: 5
+model name	: AMD Opteron(tm) Processor 850
+stepping	: 10
+microcode	: 0x3a
+cpu MHz		: 2391.995
+cache size	: 1024 KB
+fdiv_bug	: no
+hlt_bug		: no
+f00f_bug	: no
+coma_bug	: no
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 1
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx mmxext lm 3dnowext 3dnow extd_apicid
+bogomips	: 4783.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 40 bits physical, 48 bits virtual
+power management: ts fid vid ttp
+
+processor	: 1
+vendor_id	: AuthenticAMD
+cpu family	: 15
+model		: 5
+model name	: AMD Opteron(tm) Processor 850
+stepping	: 10
+microcode	: 0x3a
+cpu MHz		: 2391.995
+cache size	: 1024 KB
+fdiv_bug	: no
+hlt_bug		: no
+f00f_bug	: no
+coma_bug	: no
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 1
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx mmxext lm 3dnowext 3dnow extd_apicid
+bogomips	: 4784.36
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 40 bits physical, 48 bits virtual
+power management: ts fid vid ttp
+
+processor	: 2
+vendor_id	: AuthenticAMD
+cpu family	: 15
+model		: 5
+model name	: AMD Opteron(tm) Processor 850
+stepping	: 10
+microcode	: 0x3a
+cpu MHz		: 2391.995
+cache size	: 1024 KB
+fdiv_bug	: no
+hlt_bug		: no
+f00f_bug	: no
+coma_bug	: no
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 1
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx mmxext lm 3dnowext 3dnow extd_apicid
+bogomips	: 4784.36
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 40 bits physical, 48 bits virtual
+power management: ts fid vid ttp
+
+processor	: 3
+vendor_id	: AuthenticAMD
+cpu family	: 15
+model		: 5
+model name	: AMD Opteron(tm) Processor 850
+stepping	: 10
+microcode	: 0x3a
+cpu MHz		: 2391.995
+cache size	: 1024 KB
+fdiv_bug	: no
+hlt_bug		: no
+f00f_bug	: no
+coma_bug	: no
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 1
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx mmxext lm 3dnowext 3dnow extd_apicid
+bogomips	: 4784.37
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 40 bits physical, 48 bits virtual
+power management: ts fid vid ttp
+
+
+
+vjananth@mothra:~/fall2014/CSI500/Labs/Lab03> exit
+
+Script done on Mon 29 Sep 2014 09:24:48 PM EDT
