@@ -1,0 +1,180 @@
+Script started on Tue 30 Sep 2014 10:19:39 PM EDT
+vjananth@mothra:~/fall2014/CSI500/Labs/Lab03> ./do-variation1.sh
+bash: ./do-variation1.sh: Permission denied
+vjananth@mothra:~/fall2014/CSI500/Labs/Lab03> chmod 755 do-variation1.sh
+vjananth@mothra:~/fall2014/CSI500/Labs/Lab03> chmod 755 do-variation1.sh[8P./do-variation1.sh
+echo xxxx
+xxxx
+time ./raceDriver--O3 1
+sharedInt=20000000 ideal=20000000 diff=0 reldiff=0.000000e+00
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.001s
+echo xxxx
+xxxx
+time ./raceDriver--O3 1
+sharedInt=20000000 ideal=20000000 diff=0 reldiff=0.000000e+00
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+echo xxxx
+xxxx
+time ./raceDriver--O3 1
+sharedInt=20000000 ideal=20000000 diff=0 reldiff=0.000000e+00
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.001s
+echo xxxx
+xxxx
+time ./raceDriver--O3 2
+sharedInt=40000000 ideal=40000000 diff=0 reldiff=0.000000e+00
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.000s
+echo xxxx
+xxxx
+time ./raceDriver--O3 2
+sharedInt=40000000 ideal=40000000 diff=0 reldiff=0.000000e+00
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.000s
+echo xxxx
+xxxx
+time ./raceDriver--O3 2
+sharedInt=40000000 ideal=40000000 diff=0 reldiff=0.000000e+00
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.002s
+echo xxxx
+xxxx
+time ./raceDriver--O3 10
+sharedInt=200000000 ideal=200000000 diff=0 reldiff=0.000000e+00
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+echo xxxx
+xxxx
+time ./raceDriver--O3 10
+sharedInt=200000000 ideal=200000000 diff=0 reldiff=0.000000e+00
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.000s
+echo xxxx
+xxxx
+time ./raceDriver--O3 10
+sharedInt=200000000 ideal=200000000 diff=0 reldiff=0.000000e+00
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+echo xxxx
+xxxx
+cat /proc/cpuinfo
+processor	: 0
+vendor_id	: AuthenticAMD
+cpu family	: 15
+model		: 5
+model name	: AMD Opteron(tm) Processor 850
+stepping	: 10
+microcode	: 0x3a
+cpu MHz		: 2391.995
+cache size	: 1024 KB
+fdiv_bug	: no
+hlt_bug		: no
+f00f_bug	: no
+coma_bug	: no
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 1
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx mmxext lm 3dnowext 3dnow extd_apicid
+bogomips	: 4783.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 40 bits physical, 48 bits virtual
+power management: ts fid vid ttp
+
+processor	: 1
+vendor_id	: AuthenticAMD
+cpu family	: 15
+model		: 5
+model name	: AMD Opteron(tm) Processor 850
+stepping	: 10
+microcode	: 0x3a
+cpu MHz		: 2391.995
+cache size	: 1024 KB
+fdiv_bug	: no
+hlt_bug		: no
+f00f_bug	: no
+coma_bug	: no
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 1
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx mmxext lm 3dnowext 3dnow extd_apicid
+bogomips	: 4784.36
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 40 bits physical, 48 bits virtual
+power management: ts fid vid ttp
+
+processor	: 2
+vendor_id	: AuthenticAMD
+cpu family	: 15
+model		: 5
+model name	: AMD Opteron(tm) Processor 850
+stepping	: 10
+microcode	: 0x3a
+cpu MHz		: 2391.995
+cache size	: 1024 KB
+fdiv_bug	: no
+hlt_bug		: no
+f00f_bug	: no
+coma_bug	: no
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 1
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx mmxext lm 3dnowext 3dnow extd_apicid
+bogomips	: 4784.36
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 40 bits physical, 48 bits virtual
+power management: ts fid vid ttp
+
+processor	: 3
+vendor_id	: AuthenticAMD
+cpu family	: 15
+model		: 5
+model name	: AMD Opteron(tm) Processor 850
+stepping	: 10
+microcode	: 0x3a
+cpu MHz		: 2391.995
+cache size	: 1024 KB
+fdiv_bug	: no
+hlt_bug		: no
+f00f_bug	: no
+coma_bug	: no
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 1
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx mmxext lm 3dnowext 3dnow extd_apicid
+bogomips	: 4784.37
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 40 bits physical, 48 bits virtual
+power management: ts fid vid ttp
+
+
+vjananth@mothra:~/fall2014/CSI500/Labs/Lab03> exit
+
+Script done on Tue 30 Sep 2014 10:20:11 PM EDT
